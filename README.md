@@ -1,3 +1,5 @@
+![Hero](static/hero.png)
+
 # Scale Node Library
 
 [![npm shield](https://img.shields.io/npm/v/@fern-api/scale)](https://www.npmjs.com/package/@fern-api/scale)
