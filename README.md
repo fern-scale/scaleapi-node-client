@@ -4,7 +4,7 @@
 
 [![npm shield](https://img.shields.io/npm/v/@fern-api/scale)](https://www.npmjs.com/package/@fern-api/scale)
 
-The Scale Node.js library provides access to the scale API from JavaScript/TypeScript.
+The Scale Node.js library provides access to the Scale API from JavaScript/TypeScript.
 
 ## Documentation
 
@@ -44,8 +44,6 @@ console.log('Received response from Scale', response);
 ### Authentication
 
 You can find your API keys on your [dashboard](https://scale.com/dashboard), which you can access by [logging in](https://scale.com/login) or [signing up](https://scale.com/signup).
-
-![API Keys screenshot](https://files.readme.io/bbfac52-api_key_example.jpg)
 
 When you constuct the `ScaleClient`, you can pass in your API key.
 
@@ -91,9 +89,15 @@ const batch: Scale.Batch = await scale.batches.create({
 
 You'll get autocomplete for methods:
 
+![Method autocomplete](static/method-autocomplete.png)
+
 and properties:
 
-The SDK is fully typed. If you're using TypeScript, you'll get compiler errors if misuse the SDK.
+![Property autocomplete](static/property-autocomplete.png)
+
+The SDK is fully typed. If you're using TypeScript, you'll get compiler errors if misuse the SDK:
+
+![Compile error](static/compile-error.png)
 
 ### Error handling
 
